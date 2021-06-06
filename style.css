@@ -4,8 +4,7 @@
 }
 
 body {
-    background-color: rgba(3, 168, 168);
-  }
+  background-color:aqua;
   
 .logo {
     width: 200px;
@@ -150,4 +149,12 @@ body {
     width: 20%;
     ;
 
+  }
+
+  .table_sw {
+    margin-top: 30px;
+  }
+
+  .tr_sw {
+    padding-left: 90px;
   }
