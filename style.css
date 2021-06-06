@@ -5,6 +5,7 @@
 
 body {
   background-color:aqua;
+}
   
 .logo {
     width: 200px;
@@ -157,4 +158,9 @@ body {
 
   .tr_sw {
     padding-left: 90px;
+  }
+
+  .h1_tl {
+    color: yellow;
+    text-align: center;
   }
