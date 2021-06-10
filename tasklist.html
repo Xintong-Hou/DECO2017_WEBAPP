@@ -9,5 +9,29 @@
 </head>
 <body>
     <h1 class="h1_tl">The Task List</h1>
+    <div class= "Rect_centertl">
+        <form id="taskAdd" action="/demo/demo_form.asp">
+            Unit of Study: <input type="text" name="unit of study" ><br/>
+            Assignment Name: <input type="text" name="Assignment Name" ><br/>
+            Due date : <input type="text" name="due date" ><br/>
+            Priority rating: <input type="text" name="rating" value="low/medium/high" checked><br/>
+            Estimated time to complete: <input type="text" name="time complete" ><br/>
+            Completion status: <input type="text" name="status" value="yes/no"><br>
+            
+        </form>
+        <button onclick="myFunction()">See the List</button>
+        <p id="demo"></p>
+    </div>
 </body>
+<script>
+    function myFunction() {
+        var x = document.getElementById("taskAdd");
+        var text = "";
+        var i;
+        for (i = 0; i < x.length ;i++) {
+            text += x.elements[i].value+"<br>" ;
+        }
+        document.getElementById("demo").innerHTML = text;
+    }
+</script>
 </html>
