@@ -168,7 +168,7 @@ body {
 
   .Rect_centertl {
     background: rgba(255, 255, 255, 0.8);
-    width:500px;
+    width: 30%;
     height:400px;
     margin: auto;
   }
@@ -176,4 +176,40 @@ body {
   .h1_mp {
     text-align: center;
     color: rgba(7, 12, 163);
+  }
+
+  .h3_mp {
+    text-align: center;
+  }
+
+  .aud_mp {
+    padding-left:15%;
+    width: 70%;
+    padding-top: 5%
+  }
+
+  .button_mp {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .div_mp {
+    padding-left: 30%;
+    padding-top: 5%;
+  }
+
+  .profile_mp {
+    width: 100px;
+    height: 100px;
+    background-image: url("images/music.png");
+    background-size: cover;
+    margin: auto;
   }
