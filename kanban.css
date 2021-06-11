@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+body{
+    height: 100%;
+    background-color: aqua;
+    color: black;
+    letter-spacing: .07em;
+}
+.kanban{
+    display: flex;
+}
+
+.List{
+    min-width: 20%;
+    list-style: none;
+    padding: 0 0 1em 0;
+    display: inline-table;
+    border: 1px solid rgba(133, 22, 207, 0.685);
+    margin: .625em;
+    overflow-y: visible;
+    margin: auto;
+}
+
+.container {
+    min-width: 95%;
+    padding: .5em;
+    display: block;
+}
+
+.Unitofstudy {
+    padding: .625em 1em;
+    border-bottom: 1px solid white;
+}
+.Unitofstudy h4, .Ass h5{
+    padding: 0;
+    margin: 0;
+}
+.Ass {
+    padding: .5em;
+    display: block;
+    min-width: 100%;
+    border: 1px solid white;
+    background-color: rgba(83, 245, 121);
+    color: black;
+}
+
+.h1_kb {
+    text-align: center;
+    color: red;
+    
+}

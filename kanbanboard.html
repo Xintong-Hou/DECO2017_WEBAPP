@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes"/>
+    <title>Kanban Board</title>
+    <link href="kanban.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <h1 class="h1_kb">Kanban Board</h1>
+    <div class="kanban">
+        <div class="List" ondragover="allowDrop(event)" ondrop="drop(event)">
+            <div class="Unitofstudy">
+                <h4>DECO2017</h4>
+            </div>
+            <div class="container" ondragstart="drag(event)" draggable="true">
+                <div class="Ass">
+                    <h5>Assignment 1</h5>
+                </div>
+            </div>
+        </div>
+        <div class="List" ondragover="allowDrop(event)" ondrop="drop(event)">
+            <div class="Unitofstudy">
+                <h4>DECO1012</h4>
+            </div>
+            <div class="container" ondragstart="drag(event)" draggable="true">
+                <div class="Ass">
+                    <h5>Assignment 2</h5>
+                </div>
+            </div>
+        </div>
+        <div class="List" ondragover="allowDrop(event)" ondrop="drop(event)">
+            <div class="Unitofstudy">
+                <h4>DECO1015</h4>
+            </div>
+            <div class="container" ondragstart="drag(event)" draggable="true">
+                <div class="Ass">
+                    <h5>Assignment 3</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="kanban.js"></script>
+</html>
