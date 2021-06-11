@@ -287,3 +287,12 @@ body {
   height: 90px;
 
 }
+
+.profile_sw {
+  width: 170px;
+    height: 200px;
+    background-image: url("images/stopwatch.png");
+    background-size: cover;
+    margin: auto;
+    margin-bottom: 5%;
+}
